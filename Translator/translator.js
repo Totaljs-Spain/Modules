@@ -1,6 +1,7 @@
 const Fs = require('fs');
 
-// copy here your Translator URL for your App
+// copy here your Translator URL for your App. 
+// Only need url if you want to get language list and/or translations.
 var icurl = '';
 
 exports.install = function() {
